@@ -1,0 +1,342 @@
+/* NAVBAR CSS */
+* {
+    position: relative;
+}
+nav {
+    background-color: black;
+    min-height: 25px;
+}
+.navbar-brand img {
+    width: 47px;
+    height: 40px;
+}
+.nav-link {
+    color: white !important;
+}
+.list li a:hover {
+    color: #da292a !important;
+}
+.font-link{
+   margin-top: 5px;
+   margin-right: 6px;
+   color: white;
+   font-size: 19px;
+   font-family: 'Teko', sans-serif;
+}
+.nav-dwl .btn {
+    background-color: #da292a;
+    font-size: 17px;
+    border-radius: 0;
+    min-width: 235px;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 10px;
+    text-align: center;
+}
+.list .dropdown-menu {
+    margin-left: -15px;
+}
+.dropdown-item {
+    color: white;
+}
+.dropdown-item:hover {
+    background:none;
+    color: #da292a;
+}
+.nav-dwl .dropdown-menu {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media (max-width: 990px) {
+    .font-link {
+        font-size: 20px;
+        margin: 20px 0 10px 20px;
+        border-bottom: 1px solid #5e5e5e;
+    }
+}
+/* END NAVBAR */
+
+/* JUMBOTRON CSS */
+.jumbotron {
+    background-image: url(assets/banner-home.jpg);
+    background-size: cover;
+    min-height: 40em; 
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.home img {
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.home h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.home a {
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+.btn-top a {
+    background-color: #d62626;
+    color: white;
+}
+.btn-bottom a {
+    background: none;
+    color: white;
+    border: 2px solid white;
+} 
+.btn-top a:hover, .btn-bottom a:hover {
+    color: white;
+    margin-top: -8px; 
+}
+.btn-bottom svg {
+    margin-top: -2px;
+    margin-left: 3px;
+}
+@media (min-width:1220px) {
+    .home h2 {
+        margin: auto 350px 20px auto;
+    }
+}
+@media (min-width: 990px) {
+    .btn-bottom a {
+        margin-left: -200px;
+    }
+}
+/* characters */
+.characters {  
+    background-image: url(assets/backgroundutama.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+.characters h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+}
+.characters img {
+    width: 500px;
+    height: 500px;
+}
+.characters h4 {
+    font-size: 21px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.characters a {
+    font-size: 17px;
+    background-color: #da292a;
+    color: white;
+    transition: 0.4s ease;
+}
+.characters a:hover {
+    color: white;
+    background-color: #0f1923;
+    margin-top: -10px;
+}
+/* END CHARACTERS */
+
+/* Hero */
+.hero {
+    background-image: url(assets/banner-midel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 45em;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.897);
+}
+.hero h2 {
+    font-size: 77px;
+    font-family:'Teko',sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-top: 480px;
+    margin-bottom: 0;
+}
+.hero p {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+@media (max-width: 590px) {
+    .hero h2 {
+        font-size: 65px;
+        text-align: center;
+    }
+    .hero p {
+        font-size: 19px;
+        margin: auto 10px auto 10px ;
+    }
+}
+/* End Hero */
+
+/* BANNER-VIDEO */
+.bg-video {  
+    width: 100%;
+}
+@media (max-width: 770px) {
+    .banner {
+        background-image: url(assets/apex-section-bg-battle-royale-video-xl.jpg.adapt.768w.jpg) ;
+        background-position: 0 -100px;
+        min-width:100%;
+        min-height: 150em;      
+    }
+    .bg-video {
+        display: none;
+    }
+}
+/* .content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+}
+
+h1 {
+    margin: 60px 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.banner {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 767px) {
+    .banner {
+        background: url('assets/apex-section-bg-battle-royale-video-xl.jpg.adapt.768w.jpg') center center / cover no-repeat;
+    }
+    .bg-video {
+        display: none;
+    }
+} */
+/* END BANNER-VIDEO */
+
+/* NEWS */
+.news {
+    background-image: url(assets/backgroundutama2.jpg);
+    background-size: cover;
+    min-height: 40em;
+    margin-top: -10px;
+}
+.news h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    margin-top: 100px;
+}
+
+/* card */
+.card {
+    background-color: #161616;
+    border-bottom: 9px solid #da292a;
+    border-radius: 0;
+    min-height: 600px;
+    color: white;
+    min-width: 21rem;
+    margin-bottom: 40px;
+}
+.card h5 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+.card span {
+    color: #da292a;
+}
+.card h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-text {
+    font-weight: 600; 
+}
+/* END NEWS */
+
+/* banner season */
+.banner-bottom {
+    background-image: url(assets/banner-bottom.jpg);
+    background-size: cover;  
+    min-height: 25em;
+    color: white;
+    text-align: center;
+}
+.banner-bottom h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 80px;
+}
+.banner-bottom p {
+    margin-bottom: 30px;
+}
+.banner-bottom a {
+    font-size: 17px;
+    background-color: #da292a;
+    color: white;
+}
+.banner-bottom a:hover {
+    color: white;
+    background-color:transparent;
+    border: 2px solid #505050;
+}
+@media (min-width:990px) {
+    .banner-bottom p {
+        font-size: 18px;
+        margin: 0 200px 20px 200px;
+    }
+}
+/* end banner season */
+
+/* footer */
+footer {
+    background-color: #252525;
+}
+.top img {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+hr {
+    width: 100%;
+    border: 1px solid #5e5e5e;
+}
+footer p {  
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+footer span {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+}
+/* end footer */

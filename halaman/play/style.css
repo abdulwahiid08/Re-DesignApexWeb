@@ -1,0 +1,141 @@
+/* NAVBAR CSS */
+nav {
+    background-color: black;
+    min-height: 25px;
+}
+
+.navbar-brand img {
+    width: 47px;
+    height: 40px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.list li a:hover {
+    color: #da292a !important;
+}
+
+.font-link {
+    margin-top: 5px;
+    margin-right: 6px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-dwl .btn {
+    background-color: #da292a;
+    font-size: 17px;
+    border-radius: 0;
+    min-width: 235px;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list .dropdown-menu {
+    margin-left: -15px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: none;
+    color: #da292a;
+}
+
+.nav-dwl .dropdown-menu {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media (max-width: 990px) {
+    .font-link {
+        font-size: 20px;
+        margin: 20px 0 10px 20px;
+        border-bottom: 1px solid #5e5e5e;
+    }
+}
+
+/* END NAVBAR */
+
+/* banner */
+.banner {
+   background-image: url(assets/apex-section-bg-red-grit-texture-xl.jpg.adapt.1456w.jpg);
+   background-size: cover;
+   min-height: 40em;
+}
+.banner img {
+    width: 150px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.banner h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Teko',sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner p {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+/* end Banner */
+
+/* content */
+.border {
+    margin-right: 50px;
+    padding: 100px;
+    color: white;
+}
+.border h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.border img {
+    width: 90px;
+}
+.gambar:hover {
+    width: 110px;
+    transition: 0.3s;
+}
+/* End Content */
+
+/* footer */
+footer {
+    background-color: #252525;
+}
+
+.top img {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #5e5e5e;
+}
+
+footer p {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+}
+
+/* end footer */

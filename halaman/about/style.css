@@ -1,0 +1,178 @@
+/* NAVBAR CSS */
+nav {
+    background-color: black;
+    min-height: 25px;
+}
+
+.navbar-brand img {
+    width: 47px;
+    height: 40px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.list li a:hover {
+    color: #da292a !important;
+}
+
+.font-link {
+    margin-top: 5px;
+    margin-right: 6px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-dwl .btn {
+    background-color: #da292a;
+    font-size: 17px;
+    border-radius: 0;
+    min-width: 235px;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list .dropdown-menu {
+    margin-left: -15px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: none;
+    color: #da292a;
+}
+
+.nav-dwl .dropdown-menu {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media (max-width: 990px) {
+    .font-link {
+        font-size: 20px;
+        margin: 20px 0 10px 20px;
+        border-bottom: 1px solid #5e5e5e;
+    }
+}
+
+/* END NAVBAR */
+
+/* banner-home */
+.jumbotron {
+    background-image: url(assets/background2.png);
+    background-size: cover;
+    min-height: 40em;
+    border-radius: 0;
+    background-color: #111111f3;
+}
+.banner-home img {
+    margin-top: 95px;
+    width: 200px;
+}
+/* end banner home */
+
+/* content */
+.content {
+    min-height: 50em;
+}
+.content h2 {
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+    margin: 50px auto 30px auto;
+    color: #242424;
+}
+.content p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #383838;
+    margin: auto 80px 80px 80px;
+}
+.bottom img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+.bottom h4 {
+    font-size: 21px;
+    font-weight: bold;
+}
+/* end content */
+
+/* banner-bottom */
+.banner-bottom {
+    background-image: url(assets/apex-section-bg-red-grit-texture-xl.jpg.adapt.1456w.jpg);
+    background-size: cover;
+    min-height: 23em;
+    color: white;
+    text-align: center;
+}
+
+.banner-bottom h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.banner-bottom p {
+    margin-bottom: 50px;
+}
+
+.banner-bottom a {
+    font-size: 17px;
+    background-color: #da292a;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.banner-bottom a:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin-top: -2px;
+}
+@media (min-width:990px) {
+    .banner-bottom p {
+        font-size: 17px;
+        margin: 0 200px 20px 200px;
+    }
+}
+/* end banner-bottom */
+
+/* footer */
+footer {
+    background-color: #252525;
+}
+
+.top img {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #5e5e5e;
+}
+
+footer p {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+}
+
+/* end footer */

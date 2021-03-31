@@ -1,0 +1,203 @@
+/* NAVBAR CSS */
+nav {
+    background-color: black;
+    min-height: 25px;
+}
+
+.navbar-brand img {
+    width: 47px;
+    height: 40px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.list li a:hover {
+    color: #da292a !important;
+}
+
+.font-link {
+    margin-top: 5px;
+    margin-right: 6px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-dwl .btn {
+    background-color: #da292a;
+    font-size: 17px;
+    border-radius: 0;
+    min-width: 235px;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list .dropdown-menu {
+    margin-left: -15px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: none;
+    color: #da292a;
+}
+
+.nav-dwl .dropdown-menu {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media (max-width: 990px) {
+    .font-link {
+        font-size: 20px;
+        margin: 20px 0 10px 20px;
+        border-bottom: 1px solid #5e5e5e;
+    }
+}
+
+/* END NAVBAR */
+
+/* Banner-Home */
+.jumbotron {
+    background-image: url(assets/apex-section-bg-red-grit-texture-xl.jpg.adapt.1456w.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 30em;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.banner-home h2 {
+    color: white;
+    font-size: 52px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.banner-home p {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+.banner-home img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* END Banner-Home */
+
+/* Banner-hero */
+.banner-hero {
+    background-image: url(assets/backgroundutama2.jpg);
+    background-size: cover;
+    min-height: 40em;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 35px;
+}
+.card-text {
+    font-size: 19px; 
+    margin-bottom: 60px;
+}
+svg {
+    margin-bottom: 70px;
+}
+a svg {
+    color: #252525;
+}
+a svg:hover {
+    margin-top: -10px;
+    width: 45px;
+    transition: 0.2s;
+}
+/* END Banner-hero */
+
+/* banner-bottom */
+.banner-bottom {
+    background-image: url(assets/banner-bottom.jpg);
+    background-size: cover;
+    min-height: 23em;
+    color: white;
+    text-align: center;
+}
+.banner-bottom h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 80px;
+}
+.banner-bottom p {
+    margin-bottom: 50px;
+}
+.banner-bottom a {
+    font-size: 17px;
+    background-color: #da292a;
+    color: white;
+    margin-bottom: 70px;
+}
+.banner-bottom a:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #505050;
+    margin-top: -2px;
+}
+
+/* end banner-bottom */
+
+/* footer */
+footer {
+    background-color: #252525;
+}
+
+.top img {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #5e5e5e;
+}
+
+footer p {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+}
+/* end footer */
+
+@media (min-width:990px) {
+    .banner-bottom p {
+        font-size: 17px;
+        margin: 0 200px 20px 200px;
+    }
+    .row {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .banner-hero img {
+        width: 280px; 
+        margin-right: -40px;
+    }
+}
+@media (max-width: 990px) {
+    .banner-hero img {
+        width: 600px;
+    }
+}

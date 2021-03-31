@@ -1,0 +1,198 @@
+/* NAVBAR CSS */
+nav {
+    background-color: black;
+    min-height: 25px;
+}
+
+.navbar-brand img {
+    width: 47px;
+    height: 40px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.list li a:hover {
+    color: #da292a !important;
+}
+
+.font-link {
+    margin-top: 5px;
+    margin-right: 6px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-dwl .btn {
+    background-color: #da292a;
+    font-size: 17px;
+    border-radius: 0;
+    min-width: 235px;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list .dropdown-menu {
+    margin-left: -15px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: none;
+    color: #da292a;
+}
+
+.nav-dwl .dropdown-menu {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media (max-width: 990px) {
+    .font-link {
+        font-size: 20px;
+        margin: 20px 0 10px 20px;
+        border-bottom: 1px solid #5e5e5e;
+    }
+}
+
+/* END NAVBAR */
+
+/* BANNER HOME */
+.jumbotron {
+    background-image: url(assets/apex-section-bg-season-2-keyart-xl.jpg.adapt.1920w.jpg\ 1456w.jpg);
+    background-size: cover;
+    min-height: 35em;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.banner-home img {
+    width: 280px;
+    margin-top: 60px;
+}
+/* END BANNER HOME */
+
+/* banner content */
+.banner-content {
+    background-image: url(assets/apex-section-bg-beige-texture-xl.jpg.adapt.1456w.jpg);
+    background-size: cover;
+    min-height: 40em;
+}
+
+.banner-content img {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.banner-content h3 {
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.banner-content p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner-content a {
+    margin-bottom: 80px;
+    border: 2px solid;
+    font-weight: 600;
+}
+
+/* end banner content */
+
+/* banner-bottom */
+.banner-bottom {
+    background-image: url(assets/footer_s2.jpg);
+    background-size: cover;
+    min-height: 23em;
+    color: white;
+    text-align: center;
+}
+
+.banner-bottom h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.banner-bottom p {
+    margin-bottom: 50px;
+}
+
+.banner-bottom a {
+    font-size: 17px;
+    color: rgb(148, 148, 148);
+    margin-bottom: 70px;
+    border: 2px solid #fcfcfc;
+}
+
+.banner-bottom a:hover {
+    color: rgb(253, 247, 247);    
+}
+
+/* end banner-bottom */
+
+/* footer */
+footer {
+    background-color: #252525;
+}
+
+.top img {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #5e5e5e;
+}
+
+footer p {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+footer span {
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+}
+
+/* end footer */
+
+@media (min-width:990px) {
+    .banner-bottom p {
+        font-size: 17px;
+        margin: 0 200px 20px 200px;
+    }
+
+    .row {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .banner-hero img {
+        width: 280px;
+        margin-right: -40px;
+    }
+}
+
+@media (max-width: 990px) {
+    .banner-hero img {
+        width: 600px;
+    }
+}
